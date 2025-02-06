@@ -1,0 +1,233 @@
+.categories {
+    padding: 30px 0px;
+    margin-bottom: 60px;
+}
+
+.categories__container {
+    display: flex;
+    align-items: start;
+    gap: 50px;
+}
+
+.categories__list {
+    padding: 15px 15px;
+    width: 310px;
+    height: 774px;
+    top: 586px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FBFBFB;
+}
+
+.categories__item {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories__title {
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.categories__sub-title {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+}
+
+.categories__number {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+}
+
+.categories__title2 {
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.categories__price {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+    margin-bottom: 15px;
+}
+
+.categories__span {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+}
+
+.categories__btn {
+    width: 90px;
+    height: 35px;
+    top: 1117px;
+    left: 150px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+    background: #46A358;
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.categories__card {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 310px;
+    height: 470px;
+    top: 1360px;
+    left: 119px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, rgba(70, 163, 88, 0.1) 0%, rgba(70, 163, 88, 0.03) 100%);
+}
+
+.categories__image {
+    height: 350px;
+    background: none;
+}
+
+.categories__name {
+    font-family: Hanging Letters;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+    margin-bottom: 15px;
+}
+
+.categories__percentage {
+    font-family: Cera Pro;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.categories__list2 {
+    display: flex;
+    align-items: start;
+    gap: 430px;
+    margin-bottom: 30px;
+}
+
+.categories__itme2 {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.categories__link {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+}
+
+.categories__link:hover {
+    color: #46A358;
+}
+
+.categories__block {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+
+.categories__sub2-title {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+}
+
+.categories__btn2 {
+    background: none;
+}
+
+.categories__products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.categories__card2 {
+    margin-bottom: 30px;
+}
+
+.categories__image2 {
+    width: 250px;
+    height: 250px;
+    top: 671px;
+    left: 484px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.categories__icon {
+    padding: 0px 90px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

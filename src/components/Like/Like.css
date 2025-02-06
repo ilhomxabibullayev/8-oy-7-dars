@@ -1,0 +1,105 @@
+.like__container {
+    padding: 30px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FBFBFB;
+}
+
+.like__round {
+    width: 74px;
+    height: 74px;
+    top: 3082px;
+    left: 143px;
+    gap: 0px;
+    opacity: 0px;
+    background: #46A35821;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.like__image {
+    margin-left: 10px;
+}
+
+.like__title {
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.like__text {
+    width: 194px;
+    top: 3196px;
+    left: 143px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #727272;
+}
+
+.like__input {
+    width: 354px;
+    height: 40px;
+    top: 3107px;
+    left: 941px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #0000000F;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ACACAC;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.like__btn {
+    width: 85px;
+    height: 40px;
+    top: 3107px;
+    left: 1210px;
+    gap: 0px;
+    border-radius: 0px 6px 6px 0px;
+    opacity: 0px;
+    background: #46A358;
+    transform: translateX(-86px);
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.like__sub-title {
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 15px;
+}

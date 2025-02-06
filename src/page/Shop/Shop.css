@@ -1,0 +1,275 @@
+.shop {
+    padding: 30px 0px;
+}
+
+.shop__content {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+}
+
+.shop__link {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+}
+
+.shop__link:hover {
+    color: #000000;
+}
+
+.shop__card {
+    display: flex;
+    align-items: start;
+    gap: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.shop__image {
+    width: 404px;
+    height: 404px;
+    top: 200px;
+    left: 267px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.shop__name {
+    font-family: Cera Pro;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.shop__price {
+    font-family: Cera Pro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+    margin-bottom: 15px;
+}
+
+.shop__span {
+    width: 573px;
+    height: 1px;
+    top: 78px;
+    left: 120px;
+    gap: 0px;
+    border: 0px 0px 0px 0px;
+    opacity: 0px;
+    background: #46A35880;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.shop__description {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+    margin-bottom: 10px;
+}
+
+.shop__text {
+    width: 500px;
+    top: 280px;
+    left: 747px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.shop__size {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+    margin-bottom: 15px;
+}
+
+.shop__button {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.shop__btn {
+    width: 28px;
+    height: 28px;
+    top: 397px;
+    left: 747px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #EAEAEA;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #727272;
+    border-radius: 50%;
+    background: none;
+}
+
+.shop__btn:hover {
+    border: 1px solid #46A358;
+    color: #46A358;
+}
+
+.shop__buttons {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.shop__button2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.shop__btn2 {
+    width: 33px;
+    height: 38px;
+    top: 448px;
+    left: 746px;
+    gap: 0px;
+    border-radius: 29px 29px 29px 29px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+    color: #FFFFFF;
+}
+
+.shop__btn3 {
+    width: 130px;
+    height: 40px;
+    top: 448px;
+    left: 1031px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #46A358;
+    background: #FFFFFF;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+}
+
+.shop__btn3:hover {
+    background: #46A358;
+    color: #FFFFFF;
+}
+
+.shop__btn4 {
+    width: 40px;
+    height: 40px;
+    top: 448px;
+    left: 1171px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #46A358;
+    background: #FFFFFF;
+}
+
+.shop__title {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #727272;
+    margin-bottom: 5px;
+}
+
+.shop__block2 {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.shop__content2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.shop__link2 {
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;
+    margin-bottom: 15px;
+}
+
+.shop__link2:hover {
+    color: #46A358;
+}
+
+.shop__text2 {
+    width: 1109px;
+    top: 759px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #727272;
+    margin-bottom: 15px;
+}

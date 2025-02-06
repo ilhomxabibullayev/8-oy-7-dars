@@ -1,0 +1,114 @@
+.blog {
+    padding: 90px 0;
+}
+
+.blog__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog__title {
+    font-family: Cera Pro;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.blog__text {
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.blog__card {
+    width: 268px;
+    height: 353.17px;
+    top: 2574px;
+    left: 119px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FBFBFB;
+}
+
+.blog__image {
+    width: 268px;
+    height: 195.17px;
+    top: 2574px;
+    left: 119px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.blog__calendar {
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+    margin-left: 15px;
+}
+
+.blog__sub-title {
+    width: 189px;
+    top: 2798px;
+    left: 134px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cera Pro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-left: 15px;
+}
+
+.blog__sub-text {
+    width: 222px;
+    top: 2854px;
+    left: 134px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #727272;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.blog__link {
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-left: 15px;
+}
