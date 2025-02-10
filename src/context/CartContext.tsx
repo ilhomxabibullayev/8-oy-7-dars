@@ -5,14 +5,14 @@ interface CartItem {
     name: string;
     price: number;
     picture: string;
-    quantity: number; // Quantity qo'shildi
+    quantity: number;
 }
 
 interface CartContextType {
     cartItems: CartItem[];
     addToCart: (item: CartItem) => void;
-    updateQuantity: (id: number, quantity: number) => void; // Miqdorni yangilash
-    removeFromCart: (id: number) => void; // Mahsulotni olib tashlash
+    updateQuantity: (id: number, quantity: number) => void;
+    removeFromCart: (id: number) => void;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -27,13 +27,11 @@ export const useCart = () => {
 
 export const CartProvider = ({ children }: { children: ReactNode }) => {
     const [cartItems, setCartItems] = useState<CartItem[]>(() => {
-        // LocalStorage'dan saqlangan ma'lumotni o'qish
         const savedCart = localStorage.getItem('cart');
         return savedCart ? JSON.parse(savedCart) : [];
     });
 
     useEffect(() => {
-        // Har safar cartItems yangilanayotganida uni localStorage'da saqlash
         localStorage.setItem('cart', JSON.stringify(cartItems));
     }, [cartItems]);
 
@@ -41,7 +39,6 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
         setCartItems((prevItems) => {
             const existingItem = prevItems.find((product) => product.id === item.id);
             if (existingItem) {
-                // Mahsulot allaqachon bor bo'lsa, faqat quantityni oshirish
                 return prevItems.map((product) =>
                     product.id === item.id
                         ? { ...product, quantity: product.quantity + 1 }
