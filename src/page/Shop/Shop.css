@@ -239,6 +239,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    margin-bottom: 90px;
 }
 
 .shop__link2 {
@@ -272,4 +273,8 @@
     text-decoration-skip-ink: none;
     color: #727272;
     margin-bottom: 15px;
+}
+
+.shop__descroptions {
+    margin-bottom: 90px;
 }

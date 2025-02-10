@@ -54,6 +54,7 @@ const Categories = () => {
             name: product.name,
             price: product.price,
             picture: product.pictures,
+            quantity: 1,
         });
         navigate('/cart');
     };
