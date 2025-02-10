@@ -2,6 +2,7 @@ import { NavLink, useParams } from 'react-router';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Shop.css'
+import { useCart } from '../../context/CartContext';
 import Like from '../../components/Like';
 import GreenShop from '../../components/GreenShop';
 import Like2 from '../../assets/icon/like.svg'
@@ -23,6 +24,7 @@ const Shop = () => {
     const [product, setProduct] = useState<Product | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string>('');
+    const { addToCart } = useCart();
 
     useEffect(() => {
         const fetchProduct = async () => {
@@ -39,6 +41,16 @@ const Shop = () => {
 
         fetchProduct();
     }, [id]);
+
+    const handleAddToCart = () => {
+        addToCart({
+            id: product._id,
+            name: product.name,
+            price: product.price,
+            picture: product.pictures,
+            quantity: 1,
+        });
+    };
 
     if (loading) {
         return <div>Loading...</div>;
@@ -82,7 +94,7 @@ const Shop = () => {
                         </div>
                         <div className='shop__button2'>
                             <button className='shop__btn3'>BUY NOW</button>
-                            <button className='shop__btn3'>ADD TO CART</button>
+                            <button className='shop__btn3' onClick={handleAddToCart}>ADD TO CART</button>
                             <button className='shop__btn4'><img src={Like2} alt="" /></button>
                         </div>
                     </div>
